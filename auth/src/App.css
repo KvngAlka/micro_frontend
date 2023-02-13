@@ -1,0 +1,26 @@
+.App{
+  width:  100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+
+.App > div{
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  padding: 20px;
+  background-color: black;
+  border-radius: 15px;
+}
+
+.App > div input{
+  padding: 15px;
+  border: none;
+  border-radius: 15px;
+}
+
+.App > div button{
+  border-radius: 15px;
+}
