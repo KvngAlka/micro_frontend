@@ -9,6 +9,9 @@ export default defineConfig({
     federation({
       name: 'home',
       filename: 'home.js',
+      remotes: {
+        components: 'http://localhost:5003/assets/components.js',
+      },
       exposes: {
         './Home': './src/home.jsx'
       },

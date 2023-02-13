@@ -1,13 +1,16 @@
 import React from 'react'
+import './App.css'
 
 const Auth = () => {
   return (
-    <div>
+    <div className='App'>
+      <div>
         <input type="text" placeholder='email' />
         <input type="text" placeholder='password' />
         <button>
             submit
         </button>
+      </div>
     </div>
   )
 }

@@ -6,7 +6,7 @@ import {useNavigate} from 'react-router-dom'
 const Card = ({name})=>{
     const navigate = useNavigate();
     return (
-        <div onClick={()=>navigate(`${name}`.toLowerCase())} style={{width : '100%', padding : '20px', backgroundColor : 'black', borderRadius : '15px',cursor : 'pointer'}}>
+        <div onClick={()=>navigate(`${name}`.toLowerCase())} style={{width : '100%', padding : '20px', backgroundColor : 'black',color : 'white', borderRadius : '15px',cursor : 'pointer'}}>
             {name}
         </div>
     )
