@@ -1,0 +1,36 @@
+.menu{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.menu > div{
+    width: 100%;
+    max-width: 350px;
+    display: grid;
+    gap: 20px;
+    color: white;
+}
+
+.menu .card{
+    width: 100%;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.menu .card:hover{
+    background-color: rgb(59, 59, 59);
+}
+
+.menu .card > div{
+    height: 20px;
+    width: 20px;
+}

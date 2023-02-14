@@ -8,6 +8,7 @@ export default defineConfig({
     react(),
     federation({
       name: 'root',
+      filename : 'root.js',
       remotes: {
         home: 'http://localhost:5000/assets/home.js',
         auth : 'http://localhost:5002/assets/auth.js'

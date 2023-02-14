@@ -1,13 +1,20 @@
 import React from 'react'
 import Navbar from 'components/Navbar'
 import Footer from 'components/Footer'
+import './styles/home.css'
 
 const Home = () => {
   return (
-    <div  style={{width : '100%',display: 'flex', flexDirection : 'column'}}>
+    <div className='home'>
       <Navbar/>
-      <div style={{flex : '1', minHeight : '70vh', backgroundColor : 'white'}}>
-        <h1 color='black'>Remote Home</h1>
+      <div className='hero'>
+        <div className='hero_s'>
+
+        </div>
+        <h1>Remote Home for ACS</h1>
+        <div className='hero_s'>
+
+        </div>
       </div>
       <Footer/>
     </div>

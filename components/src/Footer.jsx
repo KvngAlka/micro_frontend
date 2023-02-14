@@ -1,9 +1,10 @@
 import React from 'react'
+import './styles/footer.css'
 
 const Footer = () => {
   return (
-    <div className='' style={{width : '100%', height : '180px', backgroundColor : 'rgb(24, 24, 24)', display : 'flex', alignItems : 'center', justifyContent : 'center'}}>
-        <h4 style={{color : 'white'}}>Footer</h4>
+    <div className='footer'>
+        <h4>Footer | hr@acs.io </h4>
     </div>
   )
 }

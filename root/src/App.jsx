@@ -7,15 +7,16 @@ import Menu from './Menu';
 function App() {
 
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Menu/>} />
-        <Route path="/home" element={<Home/>} />
-        <Route path="about" element={<div>About</div>} />
-        <Route path="auth" element={<Auth/>} />
-
-      </Routes>
-    </Router>
+    <div className='App'>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Menu/>} />
+          <Route path="/home" element={<Home/>} />
+          <Route path="about" element={<div>About</div>} />
+          <Route path="auth" element={<Auth/>} />
+        </Routes>
+      </Router>
+    </div>
     
   )
 }

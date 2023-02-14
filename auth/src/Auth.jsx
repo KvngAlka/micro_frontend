@@ -1,12 +1,13 @@
-import React from 'react'
-import './App.css'
+import React, { useState } from 'react'
+import './styles/auth.css'
 
 const Auth = () => {
+  const [state, setState] = useState({email : '', password : ''})
   return (
-    <div className='App'>
+    <div className='auth'>
       <div>
-        <input type="text" placeholder='email' />
-        <input type="text" placeholder='password' />
+        <input value={state.email} onChange = {(e)=> setState({...state, email : e.target.value})} name='email' type="text" placeholder='email' />
+        <input value={state.password} onChange = {(e)=> setState({...state, password : e.target.value})} type="password" name='password' placeholder='password' />
         <button>
             submit
         </button>
